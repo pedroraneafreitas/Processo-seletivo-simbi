@@ -1,0 +1,64 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Swagger Simbi",
+        "description": "Swagger usado para documentar os endPoints do projeto de processo seletivo da simbiose.",
+        "version": "q.0"
+    },
+    "paths": {
+        "/test": {
+            "get": {
+                "tags": [
+                    "Project"
+                ],
+                "summary": "Get all Projects",
+                "description": "Get all Projects",
+                "operationId": "45b9651092f69ee6bce10cac426002af",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/cards": {
+            "get": {
+                "tags": [
+                    "Project"
+                ],
+                "summary": "Get all Projects to the cards in the frontEnd ",
+                "description": "Get all Projects",
+                "operationId": "622763dfefc4d213ea80c9033c91f0c1",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/get-by-nome/{name}": {
+            "get": {
+                "tags": [
+                    "Project"
+                ],
+                "summary": "Get all Projects to the cards in the frontEnd by the name ",
+                "description": "Get all Projects by name",
+                "operationId": "a9e70ed69fab2617853669a848dcc0b7",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
